@@ -1,0 +1,233 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 59px;
+}
+
+.navbar {
+    background-color: rgba(255, 253, 208, 0.753);
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.navbar-brand {
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+div.overall {
+    position: relative;
+    inset: 0;
+    padding-top: 58px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+h1 {
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 900;
+    font-size: 9vw;
+    color: white;
+    text-shadow: 5px 2px rgb(59, 59, 59);
+    white-space: nowrap;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 700;
+}
+
+h3 {
+    color: rgb(59, 59, 59);
+    padding-top: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Ysabeau Infant', sans-serif;
+}
+
+.header {
+    display: block;
+    background-image: url(./image/IMG_9921.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    width:100vw;
+    height: 100vh;
+}
+
+.photo-overlay {
+    position: absolute;
+    margin-top: 58px;
+    inset: 0;
+    background-image: url(./image/IMG_0062_cropped.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100vw;
+    height: 100vh;
+    opacity: 0;
+    transition: ease 0.5s;
+}
+
+.photo-overlay:hover {
+    opacity: 1;
+}
+
+
+
+img.intro {
+    vertical-align: middle;
+    object-fit: cover;
+    border-radius: 50%;
+    height: 40vh;
+    width: 40vh;
+}
+
+div.intro-img {
+    width: 40vh;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+.animate__animated.animate__fadeInRight {
+    --animate-duration: 2s;
+  }
+
+p.intro {
+    text-align: left;
+    justify-content: center;
+    padding: 2vw;
+}
+
+
+div.intro-grid {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+div.intro-bg {
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    background-color: rgb(176, 189, 146);
+    z-index: -1;
+}
+
+div.intro-masked {
+    opacity: 0;
+}
+
+
+div.skills-bg {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+i {
+    font-size: 100px;
+    color: #6E7D4C;
+}
+
+div.hobbies-bg {
+    background-color: rgb(255, 253, 208);
+}
+
+p.hobbies {
+    text-align: justify;
+    justify-content: center;
+}
+
+img.hobbies {
+    height: 170px;
+}
+
+button.hobbies {
+    margin: 20px;
+    border: 2px solid rgb(159, 178, 117);
+    border-radius: 50vh;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 500;
+    color: rgb(159, 178, 117);
+    white-space: nowrap;
+    background-color: transparent;
+}
+
+button.hobbies:hover {
+    border: 2px solid #6E7D4C;
+    color: #6E7D4C;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+div.contact {
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.form-text {
+    font-family: 'Ysabeau Infant', sans-serif;
+    color: rgb(59, 59, 59);
+    font-size: 20px;
+}
+
+div.contact-btn {
+    justify-content: center;
+    align-items: center;
+    padding: 5% 50%;
+}
+
+button.contact {
+    margin: 2%;
+    border: 2px solid rgb(159, 178, 117);
+    border-radius: 50vh;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Ysabeau Infant', sans-serif;
+    font-weight: 500;
+    color: rgb(159, 178, 117);
+    white-space: nowrap;
+    background-color:transparent;
+    transform: translate(-50%, 0);
+}
+
+button.contact:hover {
+    border: 2px solid #6E7D4C;
+    color: #6E7D4C;
+}
